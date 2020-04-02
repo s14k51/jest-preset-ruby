@@ -1,0 +1,34 @@
+{
+  "name": "jest-preset-ruby",
+  "description": "Opinionated jest config",
+  "version": "1.0.0",
+  "main": "jest-preset.js",
+  "license": "MIT",
+  "author": "s14k51 <s14k51@gmail.com>",
+  "keywords": [
+    "jest",
+    "preset"
+  ],
+  "files": [
+    "jest-preset.js"
+  ],
+  "homepage": "https://github.com/s14k51/jest-preset-ruby",
+  "bugs": {
+    "url": "https://github.com/s14k51/jest-preset-ruby/issues"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "rimraf coverage",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "eslint": "^6.8.0",
+    "eslint-config-ruby": "^1.4.2",
+    "jest": "^25.2.4",
+    "rimraf": "^3.0.2"
+  },
+  "peerDependencies": {
+    "jest": ">=23.0.0"
+  }
+}
